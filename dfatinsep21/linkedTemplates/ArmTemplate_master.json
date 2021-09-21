@@ -21,7 +21,7 @@
 		},
 		"storageevents_properties_pipeline1_parameters_fileName": {
 			"type": "string",
-			"defaultValue": "cars.csv"
+			"defaultValue": "@triggerBody().fileName"
 		},
 		"storageevents_properties_typeProperties_scope": {
 			"type": "string",
