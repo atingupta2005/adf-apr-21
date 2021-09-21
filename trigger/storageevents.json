@@ -10,7 +10,7 @@
 					"type": "PipelineReference"
 				},
 				"parameters": {
-					"fileName": "cars.csv"
+					"fileName": "@triggerBody().fileName"
 				}
 			}
 		],
