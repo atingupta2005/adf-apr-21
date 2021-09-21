@@ -6,11 +6,11 @@
 		"type": "FileServer",
 		"typeProperties": {
 			"host": "c:\\ir",
-			"userId": "vmwinadf\\atingupta2005",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJhYmFiNjVlOC1hZWU3LTQ5NDctOTBhMy01NTAxZDJhYzU0YjYiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"userId": "atinvm2\\atingupta2005",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJmYjc3ZThlMy1iNGM1LTQ0MDEtOGI2NS02YmFhNWQzMDM3NzYiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
-			"referenceName": "irSelfHosted",
+			"referenceName": "selfHostedIr2",
 			"type": "IntegrationRuntimeReference"
 		}
 	}
