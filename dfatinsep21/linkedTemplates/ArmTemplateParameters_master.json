@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "dfatinsep21"
+		},
+		"lsInput_adls_accountKey": {
+			"value": ""
+		},
+		"lsout_sql_connectionString": {
+			"value": ""
+		},
+		"lsInput_adls_properties_typeProperties_url": {
+			"value": "https://adlsdssep21.dfs.core.windows.net"
+		},
+		"storageevents_properties_pipeline1_parameters_fileName": {
+			"value": "cars.csv"
+		},
+		"storageevents_properties_typeProperties_scope": {
+			"value": "/subscriptions/a35eb3a5-e30d-4dcb-9b4e-109d99e6628f/resourceGroups/rfsep21/providers/Microsoft.Storage/storageAccounts/adlsdssep21"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
