@@ -1,9 +1,14 @@
 {
-	"name": "ds_CarsTarget",
+	"name": "ds_Target",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "lsTarget",
 			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"TableName": {
+				"type": "string"
+			}
 		},
 		"annotations": [],
 		"type": "AzureSqlTable",
@@ -43,7 +48,10 @@
 		],
 		"typeProperties": {
 			"schema": "dbo",
-			"table": "Cars"
+			"table": {
+				"value": "@dataset().TableName",
+				"type": "Expression"
+			}
 		}
 	}
 }
